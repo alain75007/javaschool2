@@ -7,7 +7,7 @@ public class Start {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		System.out.println("Car Game lancé!");
+		System.out.println("Car Game lanc√©!");
 		Car car1 = new Car();
 		Car car2 = new Car();
 	}

@@ -4,22 +4,22 @@ package com.myschool.game.car;
 public class Car {
 	String couleur;
 	int puissance;
-	boolean démarrée = false;
-	String propriétaire;
+	boolean demarree = false;
+	String proprietaire;
 
-	public void initialize(String propriétaire, String couleur, int puissance) {
+	public void initialize(String proprietaire, String couleur, int puissance) {
 		this.couleur = couleur;
-		this.propriétaire = propriétaire;
+		this.proprietaire = proprietaire;
 		this.puissance = puissance;
 	}
 
-	public void démarrer() {
-		démarrée = true;
-		System.out.println("La voiture de " + propriétaire + " démarre...");
+	public void demarrer() {
+		demarree = true;
+		System.out.println("La voiture de " + proprietaire + " d√©marre...");
 	}
 	public void vroomvroom() {
-		if (démarrée) {
-			System.out.println("La voiture de " + propriétaire + " fait Vroom! Vroom!");
+		if (demarree) {
+			System.out.println("La voiture de " + proprietaire + " fait Vroom! Vroom!");
 		}
 	}
 }

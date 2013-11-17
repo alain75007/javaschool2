@@ -4,12 +4,12 @@ package com.myschool.game.car;
 public class Car {
 	String couleur;
 	int puissance;
-	boolean démarrée = false;
-	String propriétaire;
+	boolean demarree = false;
+	String proprietaire;
 	
-	public void initialize(String propriétaire, String couleur, int puissance) {
+	public void initialize(String proprietaire, String couleur, int puissance) {
 		this.couleur = couleur;
-		this.propriétaire = propriétaire;
+		this.proprietaire = proprietaire;
 		this.puissance = puissance;
 	}
 }
