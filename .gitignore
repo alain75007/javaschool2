@@ -1,8 +1,8 @@
 .DS_Store
-.project
-.classpath
-.settings
-.settings/*
+#.project
+#.classpath
+#.settings
+#.settings/*
 *.class
 # Package Files #
 #*.jar
