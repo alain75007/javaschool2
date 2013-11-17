@@ -4,6 +4,7 @@
 #.settings
 #.settings/*
 *.class
+*.metadata
 # Package Files #
 #*.jar
 #*.war
