@@ -1,0 +1,18 @@
+package com.myschool.game.character;
+
+public class Archer extends Character implements Fight{
+	int munitionLeft = munitionCount;
+
+	@Override
+	public void useWeapon() {
+		munitionLeft = munitionLeft - 1;
+		
+	}
+
+	@Override
+	public void write(String s) {
+		System.out.println(this.getName() + " a tiré une flèche");
+	}
+
+	
+}

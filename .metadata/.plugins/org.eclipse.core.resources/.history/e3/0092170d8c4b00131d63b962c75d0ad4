@@ -1,0 +1,5 @@
+package com.myschool.game.character;
+
+public interface Fight {
+
+}

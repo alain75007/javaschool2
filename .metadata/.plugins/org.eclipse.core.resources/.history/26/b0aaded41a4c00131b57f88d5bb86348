@@ -1,0 +1,34 @@
+//Fichier Character.java
+package com.myschool.game.core;
+
+import java.awt.Image;
+import java.net.URL;
+
+public class Character {
+	String name;
+	int liveScore;
+	/**
+	 * Met-ˆ-jour le nombre de points de vie d'un personnage 
+	 * The url argument must specify an absolute {@link URL}. The name
+	 * argument is a specifier that is relative to the url argument. 
+	 * <p>
+	 * This method always returns immediately, whether or not the 
+	 * image exists. When this applet attempts to draw the image on
+	 * the screen, the data will be loaded. The graphics primitives 
+	 * that draw the image will incrementally paint on the screen. 
+	 *
+	 * @param  url  an absolute URL giving the base location of the image
+	 * @param  name the location of the image, relative to the url argument
+	 * @return      the image at the specified URL
+	 * @see         Image
+	 */
+	public void setLiveScore(int liveScore) {
+		this.liveScore = liveScore;
+   }
+	public void disBonjour(Character character) {
+		System.out.println(this.name + ": Bonjour " + character.name + "!");
+   }
+	public void disBonjour() {
+		System.out.println(this.name + ": Bonjour tout le monde!");
+   }
+}

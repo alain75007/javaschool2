@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.myschool.game.core.Player&apos; to &apos;Character&apos;&#x0A;- Original project: &apos;Game - exemple 05020 - Variables&apos;&#x0A;- Original element: &apos;com.myschool.game.core.Player&apos;&#x0A;- Renamed element: &apos;com.myschool.game.core.Character&apos;&#x0A;- Update references to refactored element&#x0A;- Rename similarly named elements&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Player&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.myschool.game.core{Player.java[Player" matchStrategy="1" name="Character" qualified="false" references="true" similarDeclarations="true" stamp="1383864210313" textual="true" version="1.0"/>
+</session>

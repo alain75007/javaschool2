@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.myschool.game.character.Knigth&apos; to &apos;Knight&apos;&#x0A;- Original project: &apos;Copy of Game - exemple 17010 - Interface&apos;&#x0A;- Original element: &apos;com.myschool.game.character.Knigth&apos;&#x0A;- Renamed element: &apos;com.myschool.game.character.Knight&apos;&#x0A;- Update references to refactored element&#x0A;- Rename similarly named elements, also find name suffixes&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Knigth&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.myschool.game.character{Knigth.java[Knigth" matchStrategy="3" name="Knight" qualified="false" references="true" similarDeclarations="true" stamp="1384256210582" textual="true" version="1.0"/>
+</session>

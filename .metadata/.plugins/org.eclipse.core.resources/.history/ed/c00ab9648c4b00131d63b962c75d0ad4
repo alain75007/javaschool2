@@ -1,0 +1,6 @@
+package com.myschool.game.character;
+
+public class Archer extends Character implements Figth {
+
+	
+}

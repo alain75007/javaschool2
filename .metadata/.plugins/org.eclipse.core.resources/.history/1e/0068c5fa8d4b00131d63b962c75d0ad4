@@ -1,0 +1,9 @@
+package com.myschool.game.character;
+
+public class Knigth extends Warrior implements Fight {
+
+	public Knigth(String name, int liveScore) {
+		super(name, liveScore);
+	}
+
+}

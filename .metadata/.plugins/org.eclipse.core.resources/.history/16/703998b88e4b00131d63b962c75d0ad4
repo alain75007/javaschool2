@@ -1,0 +1,22 @@
+package com.myschool.game.character;
+
+public class Knigth extends Warrior implements Fight {
+	int munitionsLeft = 1;
+
+	public Knigth(String name, int liveScore) {
+		super(name, liveScore);
+	}
+
+	@Override
+	public void useWeapon() {
+		
+	}
+
+	@Override
+	public void write() {
+		System.out.println(this.getName() + " à donné un coup d'épée");
+		// TODO Auto-generated method stub
+		
+	}
+
+}

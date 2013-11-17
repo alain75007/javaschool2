@@ -1,0 +1,17 @@
+package com.myschool.game.character;
+
+public class Archer extends Character implements Fight{
+
+	@Override
+	public void useWeapon() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void write(String s) {
+		System.out.println(this.getName() + " a tirée une flèche");
+	}
+
+	
+}

@@ -1,0 +1,16 @@
+// Fichier Game.java
+package com.myschool.game.core;
+public class Game {
+
+	public static void main(String[] args) {
+		int playerCount = 0;
+        Character player1   = new Character();
+        playerCount++;
+        player1.name = "Maxime";        
+        Character player2 = new Character();
+        playerCount++;     
+        player2.name = "Alpha";
+        System.out.println("Nombre de joueurs : " + playerCount);
+	}
+}
+

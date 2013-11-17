@@ -1,0 +1,7 @@
+package com.myschool.game.character;
+
+public interface Fight {
+	int munitionCount = 10;
+	
+
+}
